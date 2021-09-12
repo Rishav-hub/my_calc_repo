@@ -44,7 +44,7 @@ def math_operation_via_postman():
             result = 'the product of ' + str(num1) + ' and ' + str(num2) + ' is ' + str(r)
         if (operation == 'divide'):
             r = num1 / num2
-            result = 'the quotient when ' + str(num1) + ' is divided by ' + str(num2) + ' is ' + str(r)
+            result = 'the quotient when divided is ' + str(num1) + ' is divided by ' + str(num2) + ' is ' + str(r)
         return jsonify(result)
 
 
